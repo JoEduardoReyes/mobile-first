@@ -141,13 +141,15 @@ main {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
-.main-currency-table .currency-table-title {
+.main-currency-table .currency-table-title,
+.main-currency-table .comision-table-title {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
   color: var(--bitcoin-orage);
 }
+
 .currency-table-container {
   width: 90%;
   min-width: 230px;
@@ -215,7 +217,8 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
-.current-table-date p {
+.current-table-date p,
+.comisions-table-date p {
   width: 173px;
   font-family: Inter;
   font-style: normal;
@@ -229,4 +232,10 @@ main {
   background-color: var(--soft-orange);
   margin-left: calc(50% - 82px);
   border-radius: 8px;
+}
+.main-currency-table .comision-table-title {
+  color: var(--secondary-blue);
+}
+.comisions-table-date p {
+  background-color: var(--soft-blue);
 }
