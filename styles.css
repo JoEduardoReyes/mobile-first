@@ -261,15 +261,15 @@ main {
 .current-table-date p,
 .comisions-table-date p {
   width: 173px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
   color: var(--warm-black);
-  margin-top: 26px;
-  padding: 5px;
+  margin-top: 15px;
+  padding: 8px;
   background-color: var(--soft-orange);
   margin-left: calc(50% - 82px);
   border-radius: 8px;
