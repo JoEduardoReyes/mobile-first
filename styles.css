@@ -215,5 +215,18 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
-.current-table-date {
+.current-table-date p {
+  width: 173px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: var(--warm-black);
+  margin-top: 26px;
+  padding: 5px;
+  background-color: var(--soft-orange);
+  margin-left: calc(50% - 82px);
+  border-radius: 8px;
 }
