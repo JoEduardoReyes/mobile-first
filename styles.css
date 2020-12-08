@@ -142,6 +142,8 @@ main {
   font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table-title {
+  text-align: start;
+  margin-left: 20px;
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
