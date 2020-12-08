@@ -180,9 +180,10 @@ main {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
-.main-currency-table .currency-table-title {
+.main-currency-table .currency-table-title,
+.main-currency-table .comision-table-title {
   text-align: start;
-  margin-left: 20px;
+  margin-left: 35px;
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
