@@ -330,7 +330,10 @@ main {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product-detail--card .clock {
+.product-detail--card .clock,
+.product-detail--card .eye,
+.product-detail--card .dollar,
+.product-detail--card .check {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -341,6 +344,15 @@ main {
 }
 .product-detail--card .clock {
   background-image: url("./assets/icons/clock1.svg");
+}
+.product-detail--card .eye {
+  background-image: url("./assets/icons/eye1.svg");
+}
+.product-detail--card .dollar {
+  background-image: url("./assets/icons/dollar-sign1.svg");
+}
+.product-detail--card .check {
+  background-image: url("/assets/icons/check-circle1.svg");
 }
 .product-detail--card .product--card-title {
   margin-bottom: 15px;
