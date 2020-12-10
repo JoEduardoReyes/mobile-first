@@ -26,6 +26,7 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 header {
   position: relative;
@@ -375,7 +376,6 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   text-align: center;
 }
 .bitcoin-img-container h2 {
