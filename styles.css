@@ -460,5 +460,26 @@ main {
   font-size: 1.2rem;
   color: #757575;
 }
-.plan-info--container button {
+.plan-info--container .plan-card-ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: var(--off-white);
+  border: 2px solid var(--bitcoin-orage);
+  border-radius: 4px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  color: var(--warm-black);
+}
+.plan-card-ca span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("./assets/icons/arrow-right1.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: text-bottom;
 }
