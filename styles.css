@@ -413,8 +413,12 @@ main {
   color: #757575;
 }
 .plans-container--slider {
-  display: flex;
-  min-height: 316px;
+  /* display: flex; */
+  /* min-height: 316px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 316px;
+  gap: 5px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -432,15 +436,15 @@ main {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-.plans-container--card:nth-child(1) {
+.plans-container--card:first-child {
   margin-left: 50px;
 }
-.planes-container--slider::-webkit-scrollbar {
+.plans-container--slider::-webkit-scrollbar {
   background-color: var(--soft-orange);
   height: 3px;
 }
-.planes-container--slider::-webkit-scrollbar-thumb {
-  background-color: var(--bitcoin-orange);
+.plans-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orage);
 }
 .recomended,
 .basic,
