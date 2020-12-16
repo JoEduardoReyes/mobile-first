@@ -424,7 +424,9 @@ main {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-.recomended {
+.recomended,
+.basic,
+.trial {
   position: absolute;
   width: 120px;
   height: 31px;
@@ -437,6 +439,12 @@ main {
   line-height: 15px;
   font-family: "Inter", sans-serif;
   padding: 7px;
+}
+.basic {
+  background-color: var(--secondary-blue);
+}
+.trial {
+  background-color: var(--warm-black);
 }
 .plan-info--container .plan-card--title {
   padding-top: 30px;
@@ -455,6 +463,7 @@ main {
 .plan-info--container .plan-card--price span {
   font-size: 1.2rem;
   font-weight: 300;
+  vertical-align: text-top;
 }
 .plan-info--container .plan-card--saving {
   font-size: 1.2rem;
@@ -472,6 +481,7 @@ main {
   line-height: 1.8rem;
   font-size: 1.4rem;
   color: var(--warm-black);
+  cursor: pointer;
 }
 .plan-card-ca span {
   display: inline-block;
