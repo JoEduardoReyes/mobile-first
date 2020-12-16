@@ -413,15 +413,22 @@ main {
   color: #757575;
 }
 .plans-container--slider {
-  /* display: flex; */
-  /* min-height: 316px; */
-  display: grid;
+  display: flex;
+  min-height: 316px;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr) 50px;
-  grid-template-rows: 316px;
+  grid-template-rows: 316px; */
   gap: 5px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+}
+.plans-container--slider::-webkit-scrollbar {
+  background-color: var(--soft-orange);
+  height: 3px;
+}
+.plans-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orage);
 }
 .plans-container--card {
   position: relative;
@@ -439,12 +446,8 @@ main {
 .plans-container--card:first-child {
   margin-left: 50px;
 }
-.plans-container--slider::-webkit-scrollbar {
-  background-color: var(--soft-orange);
-  height: 3px;
-}
-.plans-container--slider::-webkit-scrollbar-thumb {
-  background-color: var(--bitcoin-orage);
+.plans-container--card:last-child {
+  margin-right: 50px;
 }
 .recomended,
 .basic,
